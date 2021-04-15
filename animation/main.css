@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 16px 40px;
+}
+
+.nav {
+    background-color: #048FF4;
+}
+
+.logo h2 {
+    color: #fff;
+}
+
+
+
+@media(max-width: 900px) {
+    .nav-items {
+       display: block !important;
+    }
+    .logo {
+        margin-bottom: 10px;
+    }
+    .logo h2 {
+        text-align: center;
+    }
+    .link .css-link {
+    font-size: 12px;
+    }
+    .cards-main  {
+        display: grid !important;
+    }
+    .cards {
+        margin-bottom: 20px;
+        margin-left: 0px !important;
+    }
+}

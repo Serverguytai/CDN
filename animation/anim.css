@@ -1,0 +1,1459 @@
+/* Animations */
+
+/* slideFromTop */
+
+.reset {
+    transform: translate(0px) !important;
+    -webkit-transform: translate(0px) !important;
+    -moz-transform: translate(0px) !important;
+    -ms-transform: translate(0px) !important;
+    -o-transform: translate(0px) !important;
+    animation: none !important;
+    -webkit-animation: none !important;
+}
+
+.animate-slideFromTop-01sec {
+    animation: 0.1s slideFromTop;
+    -webkit-animation: 0.1s slideFromTop;
+}
+.animate-slideFromTop-02sec {
+    animation: 0.2s slideFromTop;
+    -webkit-animation: 0.2s slideFromTop;
+}
+.animate-slideFromTop-03sec {
+    animation: 0.3s slideFromTop;
+    -webkit-animation: 0.3s slideFromTop;
+}
+.animate-slideFromTop-05sec {
+    animation: 0.5s slideFromTop;
+    -webkit-animation: 0.5s slideFromTop;
+}
+
+.animate-slideFromTop {
+    animation: 1s slideFromTop;
+    -webkit-animation: 1s slideFromTop;
+}
+
+.animate-slideFromTop-2sec {
+    animation: 2s slideFromTop;
+    -webkit-animation: 2s slideFromTop;
+}
+
+.animate-slideFromTop-3sec {
+    animation: 3s slideFromTop;
+    -webkit-animation: 3s slideFromTop;
+}
+
+.animate-slideFromTop-5sec {
+    animation: 5s slideFromTop;
+    -webkit-animation: 5s slideFromTop;
+}
+
+.animate-slideFromTop-01sec-infinite {
+    animation: 0.1s slideFromTop;
+    -webkit-animation: 0.1s slideFromTop;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromTop-02sec-infinite {
+    animation: 0.2s slideFromTop;
+    -webkit-animation: 0.2s slideFromTop;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromTop-03sec-infinite {
+    animation: 0.3s slideFromTop;
+    -webkit-animation: 0.3s slideFromTop;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromTop-05sec-infinite {
+    animation: 0.5s slideFromTop;
+    -webkit-animation: 0.5s slideFromTop;
+    animation-iteration-count: infinite;
+}
+
+.animate-slideFromTop-infinite {
+    animation: 1s slideFromTop;
+    -webkit-animation: 1s slideFromTop;
+    animation-iteration-count: infinite;
+}
+
+.animate-slideFromTop-2sec-infinite {
+    animation: 2s slideFromTop;
+    -webkit-animation: 2s slideFromTop;
+    animation-iteration-count: infinite;
+}
+
+.animate-slideFromTop-3sec-infinite {
+    animation: 3s slideFromTop;
+    -webkit-animation: 3s slideFromTop;
+    animation-iteration-count: infinite;
+}
+
+.animate-slideFromTop-5sec-infinite {
+    animation: 5s slideFromTop;
+    -webkit-animation: 5s slideFromTop;
+    animation-iteration-count: infinite;
+}
+
+
+
+/* slideFromTop */
+
+/* slideFromTop */
+
+.animate-slideFromBottom-01sec {
+    animation: 0.1s slideFromBottom;
+    -webkit-animation: 0.1s slideFromBottom;
+}
+.animate-slideFromBottom-02sec {
+    animation: 0.2s slideFromBottom;
+    -webkit-animation: 0.2s slideFromBottom;
+}
+.animate-slideFromBottom-03sec {
+    animation: 0.3s slideFromBottom;
+    -webkit-animation: 0.3s slideFromBottom;
+}
+.animate-slideFromBottom-05sec {
+    animation: 0.5s slideFromBottom;
+    -webkit-animation: 0.5s slideFromBottom;
+}
+
+.animate-slideFromBottom {
+    animation: 1s slideFromBottom;
+    -webkit-animation: 1s slideFromBottom;
+}
+
+.animate-slideFromBottom-2sec {
+    animation: 2s slideFromBottom;
+    -webkit-animation: 2s slideFromBottom;
+}
+
+.animate-slideFromBottom-3sec {
+    animation: 3s slideFromBottom;
+    -webkit-animation: 3s slideFromBottom;
+}
+
+.animate-slideFromBottom-5sec {
+    animation: 5s slideFromBottom;
+    -webkit-animation: 5s slideFromBottom;
+}
+
+.animate-slideFromTop-01sec-infinite {
+    animation: 0.1s slideFromBottom;
+    -webkit-animation: 0.1s slideFromBottom;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromTop-02sec-infinite {
+    animation: 0.2s slideFromBottom;
+    -webkit-animation: 0.2s slideFromBottom;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromTop-03sec-infinite {
+    animation: 0.3s slideFromBottom;
+    -webkit-animation: 0.3s slideFromBottom;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromTop-05sec-infinite {
+    animation: 0.5s slideFromBottom;
+    -webkit-animation: 0.5s slideFromBottom;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromTop-infinite {
+    animation: 1s slideFromBottom;
+    -webkit-animation: 1s slideFromBottom;
+    animation-iteration-count: infinite;
+}
+
+.animate-slideFromBottom-2sec-infinite {
+    animation: 2s slideFromBottom;
+    -webkit-animation: 2s slideFromBottom;
+    animation-iteration-count: infinite;
+}
+
+.animate-slideFromBottom-3sec-infinite {
+    animation: 3s slideFromBottom;
+    -webkit-animation: 3s slideFromBottom;
+    animation-iteration-count: infinite;
+}
+
+.animate-slideFromBottom-5sec-infinite {
+    animation: 5s slideFromBottom;
+    -webkit-animation: 5s slideFromBottom;
+    animation-iteration-count: infinite;
+}
+
+/* slideFromTop */
+
+/* fadeIn */
+.animate-fadeIn-01sec{
+    transition: 0.1s all;
+    animation: 0.1s fadeIn ease-in-out;
+    -webkit-animation: 0.1s fadeIn ease-in-out;
+    -webkit-transition: 0.1s all;
+    -moz-transition: 0.1s all;
+    -ms-transition: 0.1s all;
+    -o-transition: 0.1s all;
+}
+.animate-fadeIn-02sec{
+    transition: 0.2s all;
+    animation: 0.2s fadeIn ease-in-out;
+    -webkit-animation: 0.2s fadeIn ease-in-out;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    -ms-transition: 0.2s all;
+    -o-transition: 0.2s all;
+}
+.animate-fadeIn-03sec{
+    transition: 0.3s all;
+    animation: 0.3s fadeIn ease-in-out;
+    -webkit-animation: 0.3s fadeIn ease-in-out;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.animate-fadeIn-05sec{
+    transition: 0.5s all;
+    animation: 0.5s fadeIn ease-in-out;
+    -webkit-animation: 0.5s fadeIn ease-in-out;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.animate-fadeIn {
+    transition: 1s all;
+    animation: 1s fadeIn ease-in-out;
+    -webkit-animation: 1s fadeIn ease-in-out;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+
+.animate-fadeIn-2sec {
+    transition: 2s all;
+    animation: 2s fadeIn ease-in-out;
+    -webkit-animation: 2s fadeIn ease-in-out;
+    -webkit-transition: 2s all;
+    -moz-transition: 2s all;
+    -ms-transition: 2s all;
+    -o-transition: 2s all;
+}
+
+.animate-fadeIn-3sec {
+    transition: 3s all;
+    animation: 3s fadeIn ease-in-out;
+    -webkit-animation: 3s fadeIn ease-in-out;
+    -webkit-transition: 3s all;
+    -moz-transition: 3s all;
+    -ms-transition: 3s all;
+    -o-transition: 3s all;
+}
+
+.animate-fadeIn-5sec {
+    transition: 5s all;
+    animation: 5s fadeIn ease-in-out;
+    -webkit-animation: 5s fadeIn ease-in-out;
+    -webkit-transition: 5s all;
+    -moz-transition: 5s all;
+    -ms-transition: 5s all;
+    -o-transition: 5s all;
+}
+
+.animate-fadeIn-01sec-infinite {
+    animation: 0.1s fadeIn ease-in-out;
+    -webkit-animation: 0.1s fadeIn ease-in-out;
+    animation-iteration-count: infinite;
+}
+.animate-fadeIn-02sec-infinite {
+    animation: 0.2s fadeIn ease-in-out;
+    -webkit-animation: 0.2s fadeIn ease-in-out;
+    animation-iteration-count: infinite;
+}
+.animate-fadeIn-03sec-infinite {
+    animation: 0.3s fadeIn ease-in-out;
+    -webkit-animation: 0.3s fadeIn ease-in-out;
+    animation-iteration-count: infinite;
+}
+.animate-fadeIn-05sec-infinite {
+    animation: 0.5s fadeIn ease-in-out;
+    -webkit-animation: 0.5s fadeIn ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+
+.animate-fadeIn-infinite {
+    animation: 1s fadeIn ease-in-out;
+    -webkit-animation: 1s fadeIn ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.animate-fadeIn-2sec-infinite {
+    animation: 2s fadeIn ease-in-out;
+    -webkit-animation: 2s fadeIn ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.animate-fadeIn-3sec-infinite {
+    animation: 3s fadeIn ease-in-out;
+    -webkit-animation: 3s fadeIn ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.animate-fadeIn-5sec-infinite {
+    animation: 5s fadeIn ease-in-out;
+    -webkit-animation: 5s fadeIn ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+/* fadeIn */
+
+
+/* fadeOut */
+
+.animate-fadeOut-01sec {
+    transition: 0.1s all;
+    animation: 1s fadeOut ease-in-out;
+    -webkit-animation: 1s fadeOut ease-in-out;
+    -webkit-transition: 0.1s all;
+    -moz-transition: 0.1s all;
+    -ms-transition: 0.1s all;
+    -o-transition: 0.1s all;
+}
+.animate-fadeOut-02sec {
+    transition: 0.2s all;
+    animation: 0.2s fadeOut ease-in-out;
+    -webkit-animation: 0.2s fadeOut ease-in-out;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    -ms-transition: 0.2s all;
+    -o-transition: 0.2s all;
+}
+.animate-fadeOut-03sec {
+    transition: 0.3s all;
+    animation: 0.3s fadeOut ease-in-out;
+    -webkit-animation: 0.3s fadeOut ease-in-out;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.animate-fadeOut-05sec {
+    transition: 0.5s all;
+    animation: 0.5s fadeOut ease-in-out;
+    -webkit-animation: 0.5s fadeOut ease-in-out;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.animate-fadeOut {
+    transition: 1s all;
+    animation: 1s fadeOut ease-in-out;
+    -webkit-animation: 1s fadeOut ease-in-out;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+.animate-fadeOut {
+    transition: 1s all;
+    animation: 1s fadeOut ease-in-out;
+    -webkit-animation: 1s fadeOut ease-in-out;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+
+.animate-fadeOut-2sec {
+    transition: 2s all;
+    animation: 2s fadeOut ease-in-out;
+    -webkit-animation: 2s fadeOut ease-in-out;
+    -webkit-transition: 2s all;
+    -moz-transition: 2s all;
+    -ms-transition: 2s all;
+    -o-transition: 2s all;
+}
+
+.animate-fadeOut-3sec {
+    transition: 3s all;
+    animation: 3s fadeOut ease-in-out;
+    -webkit-animation: 3s fadeOut ease-in-out;
+    -webkit-transition: 3s all;
+    -moz-transition: 3s all;
+    -ms-transition: 3s all;
+    -o-transition: 3s all;
+}
+
+.animate-fadeOut-5sec {
+    transition: 5s all;
+    animation: 5s fadeOut ease-in-out;
+    -webkit-animation: 5s fadeOut ease-in-out;
+    -webkit-transition: 5s all;
+    -moz-transition: 5s all;
+    -ms-transition: 5s all;
+    -o-transition: 5s all;
+}
+
+.animate-fadeOut-01sec-infinite {
+    animation: 0.1s fadeOut ease-in-out;
+    -webkit-animation: 0.1s fadeOut ease-in-out;
+    animation-iteration-count: infinite;
+}
+.animate-fadeOut-02sec-infinite {
+    animation: 0.2s fadeOut ease-in-out;
+    -webkit-animation: 0.2s fadeOut ease-in-out;
+    animation-iteration-count: infinite;
+}
+.animate-fadeOut-03sec-infinite {
+    animation: 0.3s fadeOut ease-in-out;
+    -webkit-animation: 0.3s fadeOut ease-in-out;
+    animation-iteration-count: infinite;
+}
+.animate-fadeOut-05sec-infinite {
+    animation: 0.5s fadeOut ease-in-out;
+    -webkit-animation: 0.5s fadeOut ease-in-out;
+    animation-iteration-count: infinite;
+}
+.animate-fadeOut-infinite {
+    animation: 1s fadeOut ease-in-out;
+    -webkit-animation: 1s fadeOut ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.animate-fadeOut-2sec-infinite {
+    animation: 2s fadeOut ease-in-out;
+    -webkit-animation: 2s fadeOut ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.animate-fadeOut-3sec-infinite {
+    animation: 3s fadeOut ease-in-out;
+    -webkit-animation: 3s fadeOut ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.animate-fadeOut-5sec-infinite {
+    animation: 5s fadeOut ease-in-out;
+    -webkit-animation: 5s fadeOut ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+/* fadeOut */
+
+/* slideFromRight */
+.animate-slideFromRight-01sec {
+    animation: 0.1s slideFromRight forwards;
+    -webkit-animation: 0.1s slideFromRight forwards;
+}
+.animate-slideFromRight-02sec {
+    animation: 0.2s slideFromRight forwards;
+    -webkit-animation: 0.2s slideFromRight forwards;
+}
+.animate-slideFromRight-03sec {
+    animation: 0.3s slideFromRight forwards;
+    -webkit-animation: 0.3s slideFromRight forwards;
+}
+.animate-slideFromRight-05sec {
+    animation: 0.5s slideFromRight forwards;
+    -webkit-animation: 0.5s slideFromRight forwards;
+}
+.animate-slideFromRight {
+    animation: 1s slideFromRight forwards;
+    -webkit-animation: 1s slideFromRight forwards;
+}
+
+.animate-slideFromRight-2sec {
+    animation: 2s slideFromRight forwards;
+    -webkit-animation: 2s slideFromRight forwards;
+}
+.animate-slideFromRight-3sec {
+    animation: 2s slideFromRight forwards;
+    -webkit-animation: 2s slideFromRight forwards;
+}
+.animate-slideFromRight-5sec {
+    animation: 2s slideFromRight forwards;
+    -webkit-animation: 2s slideFromRight forwards;
+}
+
+.animate-slideFromRight-01sec-infinite {
+    animation: 0.1s slideFromRight forwards;
+    -webkit-animation: 0.1s slideFromRight forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromRight-02sec-infinite {
+    animation: 0.2s slideFromRight forwards;
+    -webkit-animation: 0.2s slideFromRight forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromRight-03sec-infinite {
+    animation: 0.3s slideFromRight forwards;
+    -webkit-animation: 0.3s slideFromRight forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromRight-05sec-infinite {
+    animation: 0.5s slideFromRight forwards;
+    -webkit-animation: 0.5s slideFromRight forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromRight-infinite {
+    animation: 1s slideFromRight forwards;
+    -webkit-animation: 1s slideFromRight forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromRight-2sec-infinite {
+    animation: 2s slideFromRight forwards;
+    -webkit-animation: 2s slideFromRight forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromRight-3sec-infinite {
+    animation: 3s slideFromRight forwards;
+    -webkit-animation: 3s slideFromRight forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromRight-5sec-infinite {
+    animation: 5s slideFromRight forwards;
+    -webkit-animation: 5s slideFromRight forwards;
+    animation-iteration-count: infinite;
+}
+/* slideFromRight */
+
+
+/* slideFromLeft */
+.animate-slideFromLeft-01sec {
+    animation: 0.1s slideFromLeft forwards;
+    -webkit-animation: 0.1s slideFromLeft forwards;
+}
+.animate-slideFromLeft-02sec {
+    animation: 0.2s slideFromLeft forwards;
+    -webkit-animation: 0.2s slideFromLeft forwards;
+}
+.animate-slideFromLeft-03sec {
+    animation: 0.3s slideFromLeft forwards;
+    -webkit-animation: 0.3s slideFromLeft forwards;
+}
+.animate-slideFromLeft-05sec {
+    animation: 0.5s slideFromLeft forwards;
+    -webkit-animation: 0.5s slideFromLeft forwards;
+}
+.animate-slideFromLeft {
+    animation: 1s slideFromLeft forwards;
+    -webkit-animation: 1s slideFromLeft forwards;
+}
+
+.animate-slideFromLeft-2sec {
+    animation: 2s slideFromLeft forwards;
+    -webkit-animation: 2s slideFromLeft forwards;
+}
+.animate-slideFromLeft-3sec {
+    animation: 2s slideFromLeft forwards;
+    -webkit-animation: 2s slideFromLeft forwards;
+}
+.animate-slideFromLeft-5sec {
+    animation: 2s slideFromLeft forwards;
+    -webkit-animation: 2s slideFromLeft forwards;
+}
+
+.animate-slideFromLeft-01sec-infinite {
+    animation: 0.1s slideFromLeft forwards;
+    -webkit-animation: 0.1s slideFromLeft forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromLeft-02sec-infinite {
+    animation: 0.2s slideFromLeft forwards;
+    -webkit-animation: 0.2s slideFromLeft forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromLeft-03sec-infinite {
+    animation: 0.3s slideFromLeft forwards;
+    -webkit-animation: 0.3s slideFromLeft forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromLeft-05sec-infinite {
+    animation: 0.5s slideFromLeft forwards;
+    -webkit-animation: 0.5s slideFromLeft forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromLeft-infinite {
+    animation: 1s slideFromLeft forwards;
+    -webkit-animation: 1s slideFromLeft forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromLeft-2sec-infinite {
+    animation: 2s slideFromLeft forwards;
+    -webkit-animation: 2s slideFromLeft forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromLeft-3sec-infinite {
+    animation: 3s slideFromLeftt forwards;
+    -webkit-animation: 3s slideFromLeftt forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideFromLeft-5sec-infinite {
+    animation: 5s slideFromLeft forwards;
+    -webkit-animation: 5s slideFromLeft forwards;
+    animation-iteration-count: infinite;
+}
+/* slideFromLeft */
+
+
+
+/* slideOutRight */
+.animate-slideOutRight-01sec {
+    animation: 0.1s slideOutRight;
+    -webkit-animation: 0.1s slideOutRight;
+}
+.animate-slideOutRight-02sec {
+    animation: 0.2s slideOutRight;
+    -webkit-animation: 0.2s slideOutRight;
+}
+.animate-slideOutRight-03sec {
+    animation: 0.3s slideOutRight;
+    -webkit-animation: 0.3s slideOutRight;
+}
+.animate-slideOutRight-05sec {
+    animation: 0.5s slideOutRight;
+    -webkit-animation: 0.5s slideOutRight;
+}
+.animate-slideOutRight {
+    animation: 1s slideOutRight;
+    -webkit-animation: 1s slideOutRight;
+}
+.animate-slideOutRight-2sec {
+    animation: 2s slideOutRight;
+    -webkit-animation: 2s slideOutRight;
+}
+.animate-slideOutRight-3sec {
+    animation: 3s slideOutRight;
+    -webkit-animation: 3s slideOutRight;
+}
+.animate-slideOutRight-5sec {
+    animation: 5s slideOutRight;
+    -webkit-animation: 5s slideOutRight;
+}
+
+.animate-slideOutRight-01sec-infinite {
+    animation: 0.1s slideOutRight forwards;
+    -webkit-animation: 0.1s slideOutRight forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideOutRight-02sec-infinite {
+    animation: 0.2s slideOutRight forwards;
+    -webkit-animation: 0.2s slideOutRight forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideOutRight-03sec-infinite {
+    animation: 0.3s slideOutRight forwards;
+    -webkit-animation: 0.3s slideOutRight forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideOutRight-05sec-infinite {
+    animation: 0.5s slideOutRight forwards;
+    -webkit-animation: 0.5s slideOutRight forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideOutRight-infinite {
+    animation: 1s slideOutRight forwards;
+    -webkit-animation: 1s slideOutRight forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideOutRight-2sec-infinite {
+    animation: 2s slideOutRight forwards;
+    -webkit-animation: 2s slideOutRight forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideOutRight-3sec-infinite {
+    animation: 3s slideOutRight forwards;
+    -webkit-animation: 3s slideOutRight forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideOutRight-5sec-infinite {
+    animation: 5s slideOutRight forwards;
+    -webkit-animation: 5s slideOutRight forwards;
+    animation-iteration-count: infinite;
+}
+/* slideOutRight */
+
+
+/* slideOutLeft */
+.animate-slideOutLeft-01sec {
+    animation: 0.1s slideOutLeft;
+    -webkit-animation: 0.1s slideOutLeft;
+}
+.animate-slideOutLeft-02sec {
+    animation: 0.2s slideOutLeft;
+    -webkit-animation: 0.2s slideOutLeft;
+}
+.animate-slideOutLeftt-03sec {
+    animation: 0.3s slideOutLeft;
+    -webkit-animation: 0.3s slideOutLeft;
+}
+.animate-slideOutLeft-05sec {
+    animation: 0.5s slideOutLeft;
+    -webkit-animation: 0.5s slideOutLeft;
+}
+.animate-slideOutLeft {
+    animation: 1s slideOutLeft;
+    -webkit-animation: 1s slideOutLeft;
+}
+.animate-slideOutLeft-2sec {
+    animation: 2s slideOutLeft;
+    -webkit-animation: 2s slideOutLeft;
+}
+.animate-slideOutLeft-3sec {
+    animation: 3s slideOutLeft;
+    -webkit-animation: 3s slideOutLeft;
+}
+.animate-slideOutLeft-5sec {
+    animation: 5s slideOutLeft;
+    -webkit-animation: 5s slideOutLeft;
+}
+
+.animate-slideOutLeft-01sec-infinite {
+    animation: 0.1s slideOutLeft forwards;
+    -webkit-animation: 0.1s slideOutLeft forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideOutLeft-02sec-infinite {
+    animation: 0.2s slideOutLeft forwards;
+    -webkit-animation: 0.2s slideOutLeft forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideOutLeft-03sec-infinite {
+    animation: 0.3s slideOutLeft forwards;
+    -webkit-animation: 0.3s slideOutLeft forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideOutLeft-05sec-infinite {
+    animation: 0.5s slideOutLeft forwards;
+    -webkit-animation: 0.5s slideOutLeft forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideOutLeft-infinite {
+    animation: 1s slideOutLeft forwards;
+    -webkit-animation: 1s slideOutLeft forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideOutLeft-2sec-infinite {
+    animation: 2s slideOutLeft forwards;
+    -webkit-animation: 2s slideOutLeft forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideOutLeft-3sec-infinite {
+    animation: 3s slideOutLeft forwards;
+    -webkit-animation: 3s slideOutLeft forwards;
+    animation-iteration-count: infinite;
+}
+.animate-slideOutLeft-5sec-infinite {
+    animation: 5s slideOutLeft  forwards;
+    -webkit-animation: 5s slideOutLeft  forwards;
+    animation-iteration-count: infinite;
+}
+/* slideOutLeft  */
+
+/* ScaleUp*/
+.animate-scaleUponHover{
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+
+.animate-scaleUponHover:hover {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+}
+
+.animate-scaleUponHover-10 {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+.animate-scaleUponHover-20 {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+.animate-scaleUponHover-30 {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+.animate-scaleUponHover-50 {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+.animate-scaleUponHover-100 {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+
+.animate-scaleUponHover-10:hover {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+.animate-scaleUponHover-20:hover {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+}
+.animate-scaleUponHover-30:hover {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -o-transform: translateY(-30px);
+}
+.animate-scaleUponHover-50:hover {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(-50px);
+    -webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    -o-transform: translateY(-50px);
+}
+.animate-scaleUponHover-100:hover {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(-100px);
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+}
+/* ScaleUp */
+
+
+/* ScaleDown */
+.animate-scaleDownonHover {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+
+.animate-scaleDownonHover:hover {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+}
+
+.animate-scaleDownonHover-10 {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+.animate-scaleDownonHover-20 {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+.animate-scaleDownonHover-30 {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+.animate-scaleDownonHover-50 {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+.animate-scaleDownonHover-100 {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+
+.animate-scaleDownonHover-10:hover {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+}
+.animate-scaleDownonHover-20:hover {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+}
+.animate-scaleDownonHover-30:hover {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    -o-transform: translateY(30px);
+}
+.animate-scaleDownonHover-50:hover {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(50px);
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -o-transform: translateY(50px);
+}
+.animate-scaleDownonHover-100:hover {
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    -o-transform: translateY(100px);
+}
+/* ScaleDown */
+
+/* Hoveredtext */
+.animate-hovered-style {
+    position: relative;
+}
+
+.animate-hovered-style:hover {
+    color: blue;
+}
+
+.animate-hovered-style::after {
+    transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 1px;
+    background-color: blue;
+    -webkit-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -moz-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -ms-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.animate-hovered-style:hover::after {
+    left: 0;
+    width: 100%;
+    right: auto;
+}
+
+/* HoveredText */
+
+/* .animate-nofadeIn {
+    animation: 0.3s nofadeIn;
+    -webkit-animation: 0.3s nofadeIn;
+}
+
+.animate-fadeIn-overlay {
+    animation: 1s fadeIn-overlay ease-in-out;
+    -webkit-animation: 1s fadeIn-overlay ease-in-out;
+} */
+
+/* Animations */
+
+/* Animation Keyframes */
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn-overlay {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideFromTop {
+    0% {
+        opacity: 0;
+        animation: cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.4s 1 normal both running;
+        -webkit-animation: cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.4s 1 normal both running;
+        transform: translate3d(0px, -50px, 0px);
+        -webkit-transform: translate3d(0px, -50px, 0px);
+        -moz-transform: translate3d(0px, -50px, 0px);
+        -ms-transform: translate3d(0px, -50px, 0px);
+        -o-transform: translate3d(0px, -50px, 0px);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes slideFromBottom {
+    0% {
+        opacity: 0;
+        animation: cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.4s 1 normal both running;
+        -webkit-animation: cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.4s 1 normal both running;
+        transform: translate3d(0px, 50px, 0px);
+        -webkit-transform: translate3d(0px, 50px, 0px);
+        -moz-transform: translate3d(0px, 50px, 0px);
+        -ms-transform: translate3d(0px, 50px, 0px);
+        -o-transform: translate3d(0px, 50px, 0px);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes slidedown {
+    0% {
+        transform: translateY(-10%);
+        -webkit-transform: translateY(-10%);
+        -moz-transform: translateY(-10%);
+        -ms-transform: translateY(-10%);
+        -o-transform: translateY(-10%);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes slideup {
+    0% {
+        transform: translateY(2%);
+        -webkit-transform: translateY(2%);
+        -moz-transform: translateY(2%);
+        -ms-transform: translateY(2%);
+        -o-transform: translateY(2%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+        opacity: 0;
+    }
+}
+
+@keyframes slideright {
+    0% {
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+    }
+}
+
+@keyframes slideFromRight {
+    0% {
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+}
+    100% {
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+    }
+}
+
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+}
+    100% {
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+    }
+}
+
+@keyframes slideup {
+    0% {
+        transform: translateY(2%);
+        -webkit-transform: translateY(2%);
+        -moz-transform: translateY(2%);
+        -ms-transform: translateY(2%);
+        -o-transform: translateY(2%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+        opacity: 0;
+    }
+}
+
+@keyframes slideOutRight {
+    0% {
+        transform: translateX(-0%);
+        -webkit-transform: translateX(-0%);
+        -moz-transform: translateX(-0%);
+        -ms-transform: translateX(-0%);
+        -o-transform: translateX(-0%);
+        opacity: 1;
+}
+    50% {
+        opacity: 0.9;
+    }
+    70% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+        opacity: 0;
+    }
+}
+@keyframes slideOutLeft{
+    0% {
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        opacity: 1;
+}
+    50% {
+        opacity: 0.9;
+    }
+    70% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        opacity: 0;
+}
+}
+
+@keyframes scale {
+    0% {
+        transition: 0.3s all;
+        -webkit-transition: 0.3s all;
+        -moz-transition: 0.3s all;
+        -ms-transition: 0.3s all;
+        -o-transition: 0.3s all;
+        transform: translateY(60px);
+        -webkit-transform: translateY(60px);
+        -moz-transform: translateY(60px);
+        -ms-transform: translateY(60px);
+        -o-transform: translateY(60px);
+        opacity: 0;
+    }
+    20% {
+        transition: 0.3s all;
+        -webkit-transition: 0.3s all;
+        -moz-transition: 0.3s all;
+        -ms-transition: 0.3s all;
+        -o-transition: 0.3s all;
+        transform: translateY(40px);
+        -webkit-transform: translateY(40px);
+        -moz-transform: translateY(40px);
+        -ms-transform: translateY(40px);
+        -o-transform: translateY(40px);
+        opacity: 0.5;
+    }
+    50% {
+        transition: 0.3s all;
+        -webkit-transition: 0.3s all;
+        -moz-transition: 0.3s all;
+        -ms-transition: 0.3s all;
+        -o-transition: 0.3s all;
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+        opacity: 1;
+    }
+    100% {
+        transition: 0.3s all;
+        -webkit-transition: 0.3s all;
+        -moz-transition: 0.3s all;
+        -ms-transition: 0.3s all;
+        -o-transition: 0.3s all;
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes scaleDown {
+    0% {
+        transition: 0.3s all;
+        -webkit-transition: 0.3s all;
+        -moz-transition: 0.3s all;
+        -ms-transition: 0.3s all;
+        -o-transition: 0.3s all;
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+        opacity: 1;
+    }
+    20% {
+        transition: 0.3s all;
+        -webkit-transition: 0.3s all;
+        -moz-transition: 0.3s all;
+        -ms-transition: 0.3s all;
+        -o-transition: 0.3s all;
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+        opacity: 1;
+    }
+    50% {
+        transition: 0.3s all;
+        -webkit-transition: 0.3s all;
+        -moz-transition: 0.3s all;
+        -ms-transition: 0.3s all;
+        -o-transition: 0.3s all;
+        transform: translateY(40px);
+        -webkit-transform: translateY(40px);
+        -moz-transform: translateY(40px);
+        -ms-transform: translateY(40px);
+        -o-transform: translateY(40px);
+        opacity: 0.5;
+    }
+    100% {
+        transition: 0.3s all;
+        -webkit-transition: 0.3s all;
+        -moz-transition: 0.3s all;
+        -ms-transition: 0.3s all;
+        -o-transition: 0.3s all;
+        transform: translateY(60px);
+        -webkit-transform: translateY(60px);
+        -moz-transform: translateY(60px);
+        -ms-transform: translateY(60px);
+        -o-transform: translateY(60px);
+        opacity: 0;
+    }
+}
+
+@keyframes split {
+    0% {
+        clip-path: polygon(50% 0, 50% 0, 50% 100%, 50% 100%);
+    }
+    100% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        transition: clip-path .3s;
+        -webkit-transition: clip-path .3s;
+        -moz-transition: clip-path .3s;
+        -ms-transition: clip-path .3s;
+        -o-transition: clip-path .3s;
+    }
+}
+
+/* Animation Keyframes */
